@@ -1,0 +1,93 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\chengxu\K5_2\CLEANER_J3_beifen\CLEANER_J3_sim_mode_okay\MDK-ARM\CLEANER_TEST.uvprojx
+Project File Date:  09/07/2016
+
+<h2>Output:</h2>
+Build target 'CLEANER_TEST'
+compiling main.c...
+linking...
+Program Size: Code=29656 RO-data=536 RW-data=308 ZI-data=4764  
+"CLEANER_TEST\CLEANER_TEST.axf" - 0 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.1.0.pack
+                ARM::CMSIS:CORE:3.30.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.30.0
+
+<h2>Collection of Component include folders:</h2>
+  E:\chengxu\K5_2\CLEANER_J3_beifen\CLEANER_J3_sim_mode_okay\MDK-ARM\RTE
+  D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.30.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+Load "CLEANER_TEST\\CLEANER_TEST.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+xx_hal_msp.c...
+compiling Button.c...
+compiling CJSON.c...
+..\Src\CJSON.c(55): warning:  #1293-D: assignment in condition
+        if (!(copy = (char*)cJSON_malloc(len))) return 0;
+..\Src\CJSON.c(220): warning:  #1293-D: assignment in condition
+        ptr=str;while ((token=*ptr) && ++len) {if (strchr("\"\\\b\f\n\r\t",token)) len++; else if (token<32) len+=5;ptr++;}
+..\Src\CJSON.c(337): warning:  #1293-D: assignment in condition
+                if (!(new_item=cJSON_New_Item())) return 0;     /* memory fail */
+..\Src\CJSON.c(427): warning:  #1293-D: assignment in condition
+                if (!(new_item=cJSON_New_Item()))       return 0; /* memory fail */
+..\Src\CJSON.c: 4 warnings, 0 errors
+compiling Dust.c...
+compiling FPE.c...
+compiling Thread.c...
+compiling Tick.c...
+compiling SIM808.c...
+../Inc/md5.h(51): warning:  #1-D: last line of file ends without a newline
+                                        
+..\Src\SIM808.c(88): warning:  #177-D: function "softwareInit" was declared but never referenced
+  static void softwareInit(void);
+..\Src\SIM808.c(437): warning:  #177-D: function "bufferLastChar" was declared but never referenced
+  static char bufferLastChar(void)
+..\Src\SIM808.c(697): warning:  #177-D: function "setATMode" was declared but never referenced
+  static void setATMode(void)
+..\Src\SIM808.c: 4 warnings, 0 errors
+compiling md5.c...
+../Inc/md5.h(51): warning:  #1-D: last line of file ends without a newline
+                                        
+..\Src\md5.c(165): warning:  #1-D: last line of file ends without a newline
+  }
+..\Src\md5.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=29600 RO-data=536 RW-data=308 ZI-data=4764  
+"CLEANER_TEST\CLEANER_TEST.axf" - 0 Error(s), 10 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.1.0.pack
+                ARM::CMSIS:CORE:3.30.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.30.0
+
+<h2>Collection of Component include folders:</h2>
+  E:\chengxu\K5_2\CLEANER_J3_beifen\CLEANER_J3_sim_mode_okay\MDK-ARM\RTE
+  D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.30.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+Load "CLEANER_TEST\\CLEANER_TEST.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
